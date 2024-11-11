@@ -1,0 +1,175 @@
+//////fix error 
+
+<?php error_reporting(0); ?>
+
+
+
+//////////////////////////////////////////////////////////
+
+
+
+
+         <button type="submit"  name="class" value="available_set" formaction= "pasanger.php">₹<?php echo $row['pris'];?><br>2A Class
+            <br>Available <?php echo $row['available_set'];?></button>
+            <button type="submit" name="class" value = "Frist_Class" formaction= "pasger_fc.php">₹<?php echo $row['fc_pris'];?><br>3A Class
+            <br>Available <?php echo $row['Frist_Class'];?></button>
+            <button type="submit"  name="class" value="Second_Class" formaction= "pasger_sc.php">₹<?php echo $row['sc_prise'];?><br>SL Class
+            <br>Available <?php echo $row['Second_Class'];?>sc</button>
+            <button type="submit" name="class" value="Third_Class" formaction= "pasger_tc.php">₹<?php echo $row['tc_pris'];?><br>2S Class
+            <br>Available <?php echo $row['Third_Class'];?></button> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////  chack box post method///////////////////
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST["checkboxValue"])) {
+        $selectedValues = $_POST["checkboxValue"];
+
+       
+        // $selectedValues will be an array containing the selected checkbox values
+    }
+}
+?>
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST["checkboxValue"])) {
+        $selectedValues = $_POST["checkboxValue"];
+          foreach ($selectedValues as $value) {
+            // Process each selected value
+            echo "Selected Value: " . $value . "<br>";
+            require 'db02.php';
+            $query =  "SELECT * FROM `pasanger` WHERE `uname` = '$value'";
+            $result = mysqli_query($conn, $query);
+            if (mysqli_num_rows($result) > 0) {
+              while($row = mysqli_fetch_assoc($result)) {
+                  // echo "<input type='checkbox' name = 'checkboxValue[]' value = '".$row["pname"]."'><b>" . $row["pname"]. "</b></br>";
+                  // echo "<p id='tr1'><a href='edit.php'>EDIT</a></p> ";
+                  
+                echo "sql find".$row["pname"]; 
+                  
+                  
+                  
+              }
+          } else {
+              echo "0 sql find no results";
+          }
+          
+          ?>
+
+
+
+//////
+
+
+
+<?php
+
+$selectpng = $_SESSION['chckpanseger'];
+
+
+require 'db02.php';
+   
+   
+$spng =  "SELECT * FROM ('pasanger') WHERE ('uname') LIKE ('$selectpng')";
+//    $fetch = mysqli_fetch_array($query);
+
+
+ // OUTPUT DATA OF EACH ROW
+
+ $shpng = mysqli_query($conn, $spng);
+
+if (mysqli_num_rows($shpng) > 0)
+ {
+ while($row = mysqli_fetch_assoc($shpng))
+  {
+     
+    
+     
+ 
+     
+    
+     
+ }
+} 
+else
+ {
+ echo "0 results";
+}
+mysqli_close($conn);
+
+?>
+
+            
+
+
+
+
+
+
+
+
+
+
+ 
+   
+
+<?php
+        }
+      }
+    }
+
+    ?>
+
+    /////////////////////////////////////////////////////////////////////////
+
+
+
+    <?php 
+   
+
+   require 'db02.php';
+   $selectpng = $_SESSION['chckpanseger'];
+   echo $selectpng ;
+   
+  //  $query =  "SELECT * FROM `pasanger` WHERE `uname` LIKE '$_SESSION[uname]'";
+  $query =  "SELECT * FROM pasanger WHERE (uname) = ('$selectpng')";
+//    $fetch = mysqli_fetch_array($query);
+
+   
+    // OUTPUT DATA OF EACH ROW
+
+    $result = mysqli_query($conn, $query);
+  
+  if (mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+      echo "sho selected psg".$row["pname"]."</br>";
+        
+    
+        
+       
+        
+    }
+} else {
+    echo "0 results";
+}
+
+?>
