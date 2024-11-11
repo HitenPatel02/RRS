@@ -1,0 +1,191 @@
+.white{
+    background-color: rgb(239, 231, 231);
+    height: 95.5vh;
+    width: 202vh;
+}
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    align-items: center; 
+}
+
+li{
+    float: left;
+}
+
+.li{
+    height: vh;
+    width: 26vh;;
+    border-radius: 4px;
+    background-color: #ff4000;
+    margin-top: 2vh;
+    cursor: pointer;
+    margin-left: 12vh;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 4.2vh;
+    margin-top: 2vh;
+    font-size: 24px;
+    border-radius: 20vh;
+    background-color: #840b82;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 40px;
+}
+
+li a:hover{
+    color:#ff4000;
+}
+
+.zz a{
+    background-color: #840b82;
+    font-size: 24px;
+    width: 1vh;
+    margin-top: 1vh;
+    font-size: 34px;
+    text-decoration: none;
+    height: 1vh;
+    border-radius: 40px;
+    color:rgb(255, 255, 255); 
+    margin-left: 52vh;
+}
+#sel{
+    background-color: #840b82;
+    height: 8vh;
+    margin-top: -1vh;
+    width: 100vh;
+    margin-left: 49vh;
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-left: 86vh;
+    margin-top: -8.2vh;
+}
+
+.frm{
+    height: 86vh;
+    width: 100vh;
+    margin-top: -4.8vh;
+    background-color: #ffffff;
+    margin-left: 50vh;
+}
+
+label{
+    color: rgb(118, 110, 110);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 2vh;
+    
+}
+input[type=text],
+input[type=number]
+{
+    margin-left: 1.6vh;
+    margin-top: 4vh;
+    width: 96vh;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#625d5d;
+    border-bottom: 1px solid #504d4c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+input[type=radio]
+{
+    background-color: #ff4000;
+    height: 2.5vh;
+    width: 2.5vh;
+    margin-left: 1.8vh;
+    font-size: 20px;
+    color: #ff4000;
+    border: 2px solid #ff4000;
+}
+
+input[type=radio]:hover{
+    height: 2.5vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.sell{
+    
+    margin-left: 1.6vh;
+    margin-top: 4vh;
+    width: 96vh;
+    height: 5vh;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#685d5d;
+    border-bottom: 1px solid #504d4c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#seas{
+    
+    margin-left: 1.6vh;
+    margin-top: 4vh;
+    width: 96vh;
+    font-family: sans-serif;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#685d5d;
+    border-bottom: 1px solid #504d4c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+h3{
+    font-size: larger;
+}
+
+input[type=submit]
+{
+    background-color: #ff6200;
+    height: 50px;
+    margin-top: -12.8vh;
+    width: 680px;
+    margin-left: 54vh;
+    font-size: 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    border: 0.1px solid #ff4800;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+input[type=submit]:hover{
+    background-color: #fff;
+    color: #ff4000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+b{
+    font-size: 12px;
+    margin-left: 2vh;
+    background-color: rgb(248, 242, 243);
+    color: rgb(134, 123, 123);
+    width: 84vh;
+    font-family: sans-serif;
+    height: 4vh;
+}

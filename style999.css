@@ -1,0 +1,52 @@
+*{
+    
+}
+
+
+.hass{
+    color: #fff;
+    margin-left: 14vh;
+    
+}
+
+.hacker{
+    height: 9vh;
+    width: 170vh;
+    margin-top: 10vh;
+    border-radius: 5px;
+    margin-left: 14vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    background: transparent;
+   
+}
+
+
+
+.uuu{
+    background-color:  #840b82;
+    height: 23vh;   
+    width: 210vh;
+}
+
+.light
+{
+    width: 28vh;
+    height: 6vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    margin-right: 6vh;
+    font-size: 16px;
+    border-right: none;
+    border-left: none;
+    color: rgb(255, 255, 255);    
+    font-family: sans-serif;
+}
+
+.light:hover{
+    border-bottom: 2px solid#ff4800;
+}
