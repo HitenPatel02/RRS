@@ -1,0 +1,11 @@
+body{
+    background-color: #bcbcbc;
+}
+
+.fullbody{
+    height: auto;
+    width: 90vh;
+    margin-left: 50vh;
+    margin-top: 5vh;
+    background-color: #ffffff;
+}

@@ -1,0 +1,516 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.reg{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    width: 360vh;
+    font-size: 20px;
+    position: fixed;
+    height: 10vh;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+
+li{
+    float: left;
+}
+
+.li{
+    width: 14vh;
+    border-radius: 4px;
+    background-color: #ff4000;
+    margin-top: 2vh;
+    cursor: pointer;
+    margin-left: 12vh;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li a{
+    padding: 8px;
+    margin-top: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-left: 20px;
+}
+
+li a:hover{
+    color:#ff4000
+}
+
+.pro{
+    color: #fff;
+    margin-left: 14vh;
+    
+}
+
+.hack{
+    height: 10vh;
+    width: 170vh;
+    margin-top: 40vh;
+    border-radius: 5px;
+    margin-left: 18vh;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-size: large;
+    background: transparent;
+    background-color: #fff;
+}
+
+
+
+.icone{
+    background: url("schedulebanner.jpg");
+    height: 75vh;   
+    width: 210vh;
+}
+
+
+input[type=date]{
+    width: 40vh;
+    height: 9.5vh;
+    background: transparent;
+    border-top: none;
+    margin-left: 1vh;
+    border-right: none;
+    border-radius: 8px;
+    border-left: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    border: 0.1px solid #e7e1db;
+    font-family: sans-serif;
+}
+
+input[type=date]:hover
+{
+    border-bottom: 2px solod #ff4800;
+}
+
+.red
+{
+    width: 40vh;
+    height: 8vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid #020202;
+    border-top: none;
+    margin-right: 6vh;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);    
+    font-family: sans-serif;
+}
+
+.red:hover{
+    border-bottom: 3px solid#ff4800;
+}
+
+.ir{
+    background-color: #ff6200;
+    margin-top: 1vh;
+    font-size: large;
+}
+.yer
+{
+    width: 40vh;
+    height: 8vh;
+    margin-left: 8vh;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.yer:hover{
+    border-bottom: 3px solid#ff4800;
+}
+
+
+input[type=button]
+{
+    background-color: #ff4000;
+    height: 50px;
+    margin-top: 1.5vh;
+    width: 180px;
+    margin-left: 4vh;
+    font-size: 16px;
+    border: 1px solid #ff4000;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+input[type=button]:hover{
+    background-color: #fff;
+    transition: 0.4s ease;
+    font-size: 18px;
+    color: #ff6a00;
+}
+
+.dell{
+    height: 10vh;
+    width: auto;
+    background-color: #ffffff;
+    color:#000000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p1{
+    margin-left:34vh;
+    margin-top: 6vh;
+    width: 40vh;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p2{
+    margin-left:56vh;
+    margin-top: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p3{
+    margin-right: 1vh;
+    margin-top: 14vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.irctc{
+
+    margin-left: 84vh;
+    font-size:  24px;
+    color:rgb(125, 120, 120);
+}
+
+.hello{
+    height: 100vh;
+    padding: 12 20px;
+    margin: 0 8px;
+    margin-top: 8vh;
+    background-image: url("a04478eca1102788b652448cef47f36bt.jpg");
+    width: auto;
+    
+}
+
+.hellos{
+    font-size: 42px;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 8vh;
+    margin-left: 8vh;
+    
+}
+
+.unn{
+    font-size: 20px;
+    margin-top: 3vh;
+    margin-left: vh;
+}
+
+input[type=submit]
+{
+    background-color: #ff6200;
+    height: 50px;
+    margin-top: 1.5vh;
+    width: 180px;
+    margin-left: 6vh;
+    font-size: 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    border: 0.1px solid #ff4800;
+    font-weight: bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #fff;
+    color: #ff4000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+
+.him{
+    background-color: rgb(237, 228, 228);
+    height: 110vh;
+    width: 200vh;
+    border: 4px solid #ffffff;
+    margin-top: 8vh;
+    margin-left: 4vh;
+    border-radius: 20px;
+}
+
+.images{
+    color: #e7e1db;
+    background-image: url("istockphoto-1224021113-170667a.jpg");
+    height: 42vh;
+    margin-top: 4vh;
+    width: 68vh; 
+    margin-left: 16vh;
+}
+
+.images1{
+    color: #e7e1db;
+    background-image: url("harmandir-sahib-amritsar-people-line-to-holy-book-golden-temple-india-holy-place-worship-sikhs-famous-51289196.jpg");
+    height: 42vh;
+    width: 70vh; 
+    margin-left: 26vh;
+    margin-top: 4vh;
+}
+
+
+.images2{
+    color: #e7e1db;
+    background-image: url("beach-goa-india-5393913.jpg");
+    height: 42vh;
+    width: 68vh; 
+    margin-top: 4vh;
+    margin-left: 16vh;
+}
+
+.images3{
+    color: #e7e1db;
+    background-image: url("istockphoto-532959840-612x612.jpg");
+    height: 42vh;
+    width: 70vh; 
+    margin-left: 26vh;
+    margin-top: 4vh;
+
+}
+
+.trip{
+    height: 18vh;
+    width: auto;
+    background-color: rgb(115, 10, 180);
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+span{
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    margin-left: 8vh;
+    font-family: sans-serif;
+}
+
+.next{
+    margin-left: 8vh;
+}
+
+input[type=email]{
+    width: 28vh;
+    height: 4vh;
+    cursor: pointer;
+    margin-left: 62vh;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: #7b0cd6;
+    margin-top: 1vh;
+    margin-right: 6vh;
+    border-right: none;
+    border-left: none;
+    color: rgb(255, 254, 254);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+.rout{
+
+    height: 12vh;
+    width: auto;
+    background-color: #550d8f;
+}
+
+.rut1{
+    font-size: large;
+    color:#d8c7c7;
+    margin-left: 16vh;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+    
+}
+
+.rut2{
+    font-size: large;
+    color:#d8c7c7;
+    margin-left: 24vh;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+    
+}
+
+.rut3{
+    font-size: large;
+    color:#d8c7c7;
+    margin-left: 24vh;
+    font-family: sans-serif;
+    font-weight: bold;     
+}
+
+.rut4{
+    font-size: large;
+    color:#d8c7c7;
+    margin-left: 24vh;
+    font-family: sans-serif;
+    font-weight: bold;  
+}
+
+.hr{
+    background-color: #0026ff;
+}
+
+.ho{
+    color: #c6bdb5;
+    margin-left: 154vh;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.top{
+    height:45vh;
+    width: auto;
+    background-color: #550d8f; 
+}
+
+.ho1{
+    font-size: 14px;
+    color:#c2b5b5;
+    margin-left: 15vh;
+    font-family: sans-serif;
+}
+
+.ho2{
+    font-size: 14px;
+    color: #c2b5b5;
+    margin-left: 23vh;
+    font-family: sans-serif;
+   
+}
+
+.ho3{
+    font-size: 14px;
+    color: #c2b5b5;
+    margin-left: 26vh;
+    font-family: sans-serif;   
+}
+
+.ho4{
+    font-size: 14px;
+    color:#c2b5b5;
+    margin-left: 25vh;
+    font-family: sans-serif;
+}
+
+
+
+.toop{
+
+    height: auto;
+    width: auto;
+    background-color: #550d8f;
+}
+
+.hu1{
+    
+    font-size: 14px;
+    color:#c2b5b5;
+    margin-left: 15vh;
+    font-family: sans-serif; 
+}
+
+.hu2{
+    font-size: 14px;
+    color: #c2b5b5;
+    margin-left: 23vh;
+    font-family: sans-serif;
+    
+}
+
+.hu3{
+    font-size: 14px;
+    color: #c2b5b5;
+    margin-left: 26vh;
+    font-family: sans-serif;       
+}
+
+.hu4{
+   font-size: 14px;
+    color:#c2b5b5;
+    margin-left: 25vh;
+    font-family: sans-serif;
+}
+
+.h1{
+    color: #c3b9b0;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 16vh; 
+}
+
+.h2{
+    color:#c3b9b0;
+}
+
+.top{
+
+    height: 40vh;
+    width: auto;
+    background-color: #550d8f;
+}
+
+.log{
+    margin-left: 28vh;
+}
+.log1{
+    margin-left: -5vh;
+}

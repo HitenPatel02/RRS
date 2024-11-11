@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.reg{
+    background-color: #ffff;
+    font-size: large;
+    width: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(8, 8, 8);
+    overflow: hidden;
+
+}
+
+li{
+    float: left;
+}
+
+li a{
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-left: 35px;
+}
+
+.pro{
+    color: #fff;
+    margin-top: 34vh;
+    margin-left: 14vh;
+    
+}
+
+.hack{
+    height: 8vh;
+    width: 180vh;
+    margin-left: 10vh;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-size: large;
+    background: transparent;
+    background-color: #fff;
+}
+
+.td{
+    width: 50vh;
+    height: 8vh;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.names{
+    height: 8vh;
+    width: 50vh;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background: transparent;
+    background-color: #fff;
+}
+
+.icone{
+    background: url("17-179187_indian-train-hd-wallpaper-download.jpg");
+    height: 90vh;   
+    width: 12vh;
+    margin-top: 80px;
+    height: 88vh;
+    margin:  0 20px;
+    padding:  12 20px;
+    margin-right: 200px;
+    margin-left: 9vh;
+
+}
+
+
+.date{
+    height: 5vh;
+    width: 40vh;
+}

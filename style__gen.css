@@ -1,0 +1,187 @@
+body{
+    background-color: #bbbbbb;
+}
+.grep{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    width: 360vh;
+    font-size: 20px;
+    position: fixed;
+    height: 10vh;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(8, 8, 8);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+
+li{
+    float: left;
+}
+
+.li{
+    width: 14vh;;
+    border-radius: 4px;
+    background-color: #ff4000;
+    margin-top: 2vh;
+    cursor: pointer;
+    margin-left: 12vh;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li a{
+    padding: 8px;
+    margin-top: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    position: relative;
+    font-size: 1.1em        ;
+    margin-left: 20px;
+}
+
+li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    background: #ff4000;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left,right;
+    transition: transform .6s;
+}
+
+li a:hover::after{
+    transform: scaleX(1);
+}
+
+.proe{
+    color: #fff;
+    margin-left: 15.8vh;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+
+
+.hacke{
+    height: 9vh;
+    width: 170vh;
+    margin-top: 6vh;
+    border-radius: 5px;
+    margin-left: 14vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    background: transparent;
+   
+}
+
+
+
+.iconee{
+    background-color:  #840b82;
+    height: 23vh;   
+    width: 210vh;
+    margin-left: 2.8vh;
+}
+
+.redee
+{
+    width: 28vh;
+    height: 6vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    margin-right: 6vh;
+    font-size: 16px;
+    border-right: none;
+    border-left: none;
+    color: #000000;    
+    font-family: sans-serif;
+}
+
+.redee:hover{
+    border-bottom: 2px solid#ff4800;
+}
+    
+.yeree
+{
+    width: 28vh;
+    height: 6vh;
+    margin-left: 4vh;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    cursor: pointer;
+    border-left: none;
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.yeree:hover{
+    border-bottom: 2px solid#ff4800;
+}
+
+
+input[type=date]{
+    width: 26vh;
+    height: 9.1vh;
+    margin-top: -10.9vh;
+    background: transparent;
+    margin-left: 8vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #fffefe;
+    font-family: sans-serif;
+}
+
+input[type=date]:hover{
+    border-bottom: 2px solid #ff4000;
+}
+
+input[type=submit]
+{
+    background-color: #ff6200;
+    height: 47px;
+    margin-top: 2vh;
+    width: 205px;
+    margin-left: 5.6vh;
+    font-size: 18px;
+    border: 1px solid rgb(255, 98, 0);
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+input[type=submit]:hover{
+    background-color: #fff;
+    transition: 0.4s ease;
+    font-size: 19px;
+    color: #ff6a00;
+}
