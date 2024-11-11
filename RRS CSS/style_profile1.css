@@ -1,0 +1,378 @@
+body{
+    background-color: #efe6e6;
+    height: 155vh;
+}
+.navbar{
+    height: 10vh;
+    width: 108vh;
+    border-bottom :5px solid #d8cfcf;
+    background-color: #ffff;
+    margin-left: 45.2vh;
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    align-items: center; 
+}
+
+
+li{
+    float: left;
+}
+
+.li{
+    width: 10vh;
+    border-radius: 4px;
+    background-color: #d7c9c4;
+    margin-top: 2vh;
+    cursor: pointer;
+    margin-left: 16vh;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li a{
+    padding: 8px;
+    margin-top: 0.5vh;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 0px;
+    color: #ffff;
+    width: 5.4vh;
+    display: block;
+    font-weight: bold;
+    background-color: #ff4000;
+    font-size: xx-large;
+    transition: 0.4s ease;
+    margin-left: 23px;
+}
+
+li a:hover{
+    background-color:#ffff;
+    transition: 0.6s ease;
+    font-weight: bolder;
+    color: #ff4000;
+}
+
+p{
+    margin-left: 40vh;
+    font-size: 28px;
+    margin-top: 1.4vh;
+    font-family: sans-serif;
+    color: #393535
+}
+
+.fillname{
+    height: 12vh;
+    width: 95vh;
+    border-bottom: 4px solid #d8cfcf;
+    background-color: #ffff;
+    margin-top: 5vh;
+    margin-left: 52.7vh;
+}
+
+
+input[type=text],
+input[type=email]
+{
+    margin-left: 2vh;
+    margin-top: 2vh;
+    width: 90vh;
+    height: 4.2vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#000000;
+    border-bottom: 2px solid #ec550f;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+::placeholder{
+    color: #393535;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 2vh;
+}
+
+input[type=email]
+{
+    margin-left: 2vh;
+    margin-top: -1vh;
+    width: 90vh;
+    height: 4.2vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#000000;
+    border-bottom: 2px solid #ec550f;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input[type=number]
+{
+    margin-left: 2vh;
+    margin-top: -1vh;
+    width: 90vh;
+    height: 4.2vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#000000;
+    border-bottom: 2px solid #ec550f;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input[type=search]
+{
+    margin-left: 2vh;
+    margin-top: -1.2vh;
+    width: 90vh;
+    height: 4.2vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#000000;
+    border-bottom: 2px solid #ec550f;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.srch{
+    height: 12vh;
+    width: 95vh;
+    border-bottom: 4px solid #d8cfcf;
+    background-color: #ffff;
+    margin-top: 5vh;
+    margin-left: 0vh; 
+}
+
+input[type=date]
+{
+    margin-left: 2vh;
+    margin-top: 1.6vh;
+    width: 40vh;
+    cursor: pointer;
+    height: 4.2vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#000000;
+    border-bottom: 2px solid #ec550f;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+label{
+    font-family: sans-serif;
+    margin-left: 1.6vh;
+    margin-top: 5vh;
+
+}
+
+#dob{
+    height: 12vh;
+    width: 45vh;
+    background-color: #ffff;
+    margin-top: 5vh;
+    border-bottom: 4px solid #d8cfcf;
+    margin-left: 52.7vh;
+}
+
+#mrt{
+    height: 12vh;
+    width: 45vh;
+    background-color: #ffff;
+    margin-top: 5vh;
+    border-bottom: 4px solid #d8cfcf;
+    margin-left: 102.7vh;
+}
+
+#ann{
+    height: 12vh;
+    width: 45vh;
+    background-color: #ffff;
+    margin-top: -8.6vh;
+    border-bottom: 4px solid #d8cfcf;
+    margin-left: -49.7vh;
+}
+#gen{
+    height: 12vh;
+    width: 45vh;
+    background-color: #ffff;
+    margin-top: -12.6vh;
+    border-bottom: 4px solid #d8cfcf;
+    margin-left: 102.8vh;
+}
+
+input[type=radio]
+{
+    margin-left: 1vh;
+    width: auto;
+    height: 2.6vh;
+    font-size: 2px;
+    width: 2.6vh;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+#lb{
+    font-size: 18px;
+    margin-left: 2vh;
+}
+
+#lb:hover{
+    border-bottom: 3px solid #ff4000;
+}
+
+#lb1{
+    font-size: 18px;
+    margin-left: 2.8vh;
+}
+
+#lb1:hover{
+    border-bottom: 3px solid #ff4000;
+}
+
+#lb2{
+    font-size: 18px;
+    margin-left: 4vh;
+}
+
+#lb2:hover{
+    border-bottom: 3px solid #ff4000;
+}
+
+.national{
+    height: 10vh;
+    width: 95vh;
+    margin-top: 6vh;
+    margin-left: 0vh;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-size: large;
+    border-bottom: 4px solid #d8cfcf;
+    background: transparent;
+    background-color: #fff;
+}
+
+.country
+{
+    width: 90vh;
+    height: 8vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    font-size: 16px;
+    border-bottom: 4px solid #d8cfcf;
+    background: transparent;
+    border-bottom: 2px solid #ff4000;
+    border-top: none;
+    margin-left: 2vh;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);    
+    font-family: sans-serif;
+}
+
+
+#stat1{
+    font-size: 18px;
+    margin-left: 2.8vh;
+}
+
+#stat1:hover{
+    border-bottom: 3px solid #ff4000;
+}
+
+#stat2{
+    font-size: 18px;
+    margin-left: 4vh;
+}
+
+#stat2:hover{
+    border-bottom: 3px solid #ff4000;
+}
+
+hr{
+    width: 100vh;
+    margin-left: -2.4vh;
+    background-color: #000000;
+   
+}
+
+.eml{
+    height: 14vh;
+    width: 95vh;
+    background-color: #ffff;
+    border-bottom: 4px solid #d8cfcf;
+    margin-top: 5vh;
+    margin-left: 0vh;
+}
+
+#p1{
+    margin-left: 2vh;
+    margin-top: -1vh;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.mob{
+    height: 14vh;
+    width: 95vh;
+    background-color: #ffff;
+    border-bottom: 4px solid #d8cfcf;
+    margin-top: 5vh;
+    margin-left: 0vh;
+}
+
+#p2{
+    margin-left: 2vh;
+    margin-top: -1vh;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#btnn{
+    height: 10vh;
+    width: 95vh;
+    margin-left: 0vh;
+    border-bottom: 4px solid #d8cfcf;
+    background-color: #ffffff;
+    margin-top: 5vh;
+}
+
+input[type=submit]
+{
+    background-color: #ff6200;
+    height: 54px;
+    margin-top: 1.5vh;
+    width: 90vh;
+    margin-left: 2.4vh;
+    font-size: 23px;
+    border: 1px solid #fff;
+    color: #fff;
+    border: 0.1px solid #dfcac1;
+    font-weight: bold;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #fff;
+    color: #ff4000;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+}

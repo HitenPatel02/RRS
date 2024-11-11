@@ -1,0 +1,378 @@
+.full{
+    height: auto;
+    width: 208vh;
+    background-color: #e5e4e4;
+}
+.yy{
+    height: 8vh;
+    width: 110vh;
+    background-color: #840b82;
+    margin-left: 48vh;
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(8, 8, 8);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+
+li{
+    float: left;
+}
+
+.li{
+    height: 2vh;
+    width: 14vh;;
+    border-radius: 4px;
+    background-color: #ff4000;
+    cursor: pointer;
+    margin-left: 12vh;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 40px;
+}
+
+p{
+    margin-left: 12vh;
+    font-size: 21px;
+    margin-top: 1vh;
+    color: #ffff;
+    font-family: sans-serif;
+}
+
+h5{
+    height:4vh;
+    width: 110vh;
+    background-color: #e5e4e4;
+    margin-left: -1vh;
+    color: rgb(114, 107, 107);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#reg{
+    height: 49vh;
+    width: 110vh;
+    background-color: #ffffff;
+    margin-left: 48vh;
+}
+
+#p1{
+    font-size: 16px;
+    color: #4e4a4a;
+    font-weight: bold;
+    margin-left: 2.8vh;
+}
+.p2{
+    font-size: 13px;
+    color: #4e4a4a;
+    font-weight: bold;
+    margin-left: 2.8vh;
+}
+#p3{
+    font-size: 16px;
+    color: #4e4a4a;
+    font-weight: bold;
+    margin-left: 2.8vh;
+}
+
+hr{
+    color: rgb(255, 255, 255);
+    width: 104vh;
+}
+.bord{
+    margin-left: 2.6vh;
+    margin-top: 1.6vh;
+    width: 104vh;
+    font-family: sans-serif;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#685d5d;
+    border-bottom: 1px solid #d4cdca;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+label{
+    margin-left: 2.8vh;
+    font-family: sans-serif;
+    color: #423f3f;
+}
+
+#us{
+    height: 28vh;
+    width: 110vh;
+    margin-top: -4.4vh;
+    background-color: #ffffff;
+    margin-left: 48vh;
+}
+
+.loi{
+    height: 9.5vh;
+    width: 106vh;
+    background-color: #ffdbcc;
+    margin-left: 2vh;
+}
+
+h6{
+    margin-left: 50vh;
+    font-size: 18px;
+    margin-top: -1vh;
+    color: rgb(114, 107, 107);
+    font-family: sans-serif;  
+}
+
+input[type=text]
+{
+    margin-left: 1.6vh;
+    margin-top: 4vh;
+    width: 96vh;
+    height: 5vh;
+    font-family: sans-serif;
+    font-size: 16px;
+    background: transparent;
+    color:#625f5f;
+    border-bottom: 1px solid #504d4c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+input[type=button]
+{
+    background-color: #ffffff;
+    height: 50px;
+    margin-top: -6vh;
+    width: 12vh;
+    margin-left: 92vh;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    color: rgb(255, 123, 0);
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+input[type=button]:hover{
+    background-color: #fff;
+    color: #ff4d00;
+    font-weight: bold;
+    font-size: 21px;
+    transition: 0.4s ease;
+}
+
+#fid {
+    font-size: 13px;
+    margin-left: 2vh;
+}
+
+#fid a{
+    color:rgb(255, 77, 0);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.k{
+    color: #4e4a4a;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 78vh;
+    margin-top: -3.2vh;
+}
+
+.k a{
+    color: #ff4000;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.trav{
+    height: 16vh;
+    width: 110vh;
+    margin-top: -3.6vh;
+    background-color: #ffffff;
+    margin-left: 48vh;
+}
+
+.tit{
+    color: #6d6a6d;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 50vh;
+    margin-top: 1.8vh;
+}
+
+.cc{
+    color: #ff6200;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 2vh;
+}
+
+#col{
+    height: 5vh;
+    width: 106vh;
+    margin-left: 2vh;
+    background-color: #ffdbcc;
+}
+
+#u{
+    font-size: 14px;
+    color: #6d6a6d;
+    margin-top: 1vh;
+    font-family: sans-serif;
+    margin-left: 4vh;
+}
+
+#we{
+    color: #6d6a6d;
+    font-size: 16px;
+    margin-top: -8.8vh;
+    margin-left: 6vh;
+    font-family: sans-serif;
+}
+.it a{
+    background-color: #ffffff;
+    height: 5px;
+    margin-top: -10vh;
+    width: 12vh;
+    margin-left: 92.5vh;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    color: rgb(255, 123, 0);
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+ }
+.it{
+    margin-top: 2.5vh;
+}
+
+.con{
+
+    height: 36vh;
+    width: 110vh;
+    background-color: #ffffff;
+    margin-left: 48vh;
+}
+
+#contact{
+    color: #716d71;
+    font-size: 18px;
+    margin-left: 50vh;
+    font-weight: bold;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    font-family: sans-serif;
+}
+
+input[type=number],
+input[type=email]
+{
+    margin-left: 2vh;
+    margin-top: 1.4vh;
+    width: 104vh;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#625d5d;
+    border-bottom: 1px solid #504d4c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input[type=email]{
+
+    margin-left: 2vh;
+    margin-top: 1.4vh;
+    width: 104vh;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color:#625d5d;
+    border-bottom: 1px solid #504d4c;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+label{
+    font-family: 'Gill Sans', sans-serif;
+    color: #878484;
+    font-size: 12px;
+    font-size: large;
+    margin-left: 2.4vh;   
+}
+
+.ni{
+    height: 5vh;
+    width: 105vh;
+    margin-left: 2.4vh;
+    background-color: #fcd6c6;
+    margin-top: 2.4vh;
+}
+
+#yy{
+    color: #6e6969;
+    font-size: 14px;
+    margin-left: 5vh;
+    font-family: sans-serif;
+    margin-top: -6.2vh;
+}
+
+.btn{
+    height: 10vh;
+    width: 110vh;
+    background-color: #ffff;
+    margin-top: 10vh;
+    margin-left: 48vh;
+}
+
+input[type="submit"]
+  {
+    background-color: #ff6200;
+    height: 8vh;
+    margin-top: 1.5vh;
+    width: 106vh;
+    border-radius: 8px;
+    margin-left: 2vh;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid rgb(237, 233, 227);
+    color: #ffffff;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+    background-color: #ffffff; 
+    color: #ff6200; 
+    font-size: 20px;
+    transition: 0.6s ease;
+    font-weight: bold;
+    
+
+}

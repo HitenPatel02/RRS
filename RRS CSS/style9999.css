@@ -1,0 +1,166 @@
+
+
+.gre{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    width: 360vh;
+    font-size: 20px;
+    position: fixed;
+    height: 10vh;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    color: rgb(8, 8, 8);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+li{
+    float: left;
+}
+
+.li{
+    width: 14vh;;
+    border-radius: 4px;
+    background-color: #ff4000;
+    margin-top: 0vh;
+    cursor: pointer;
+    margin-left: 12vh;
+    font-size: 32px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+li a{
+    padding: 8px;
+    margin-top: 0vh;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-left: 40px;
+}
+
+li a:hover{
+    color:#ff4000;
+}
+
+.hass{
+    color: #fff;  
+    margin-left: 80vh;
+    font-size: 4vh;
+    margin-top: 0.2vh;
+    font-family: sans-serif;
+    
+}
+
+.hacker{
+    height: 9vh;
+    width: 170vh;
+    margin-top: 19vh;
+    border-radius: 5px;
+    margin-left: 14vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    background: transparent;
+   
+}
+
+.uuu{
+    background-color:  #a82ba3;
+    height: 34vh;   
+    width: 202vh;
+    margin-left: 1vh;
+}
+
+.light
+{
+    width: 28vh;
+    height: 6vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    margin-right: 6vh;
+    font-size: 16px;
+    border-right: none;
+    border-left: none;
+    color: rgb(3, 3, 3);    
+    font-family: sans-serif;
+}
+
+.light:hover{
+    border-bottom: 2px solid#ff4800;
+}
+
+.hitack
+{
+    width: 28vh;
+    height: 6vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    margin-right: 6vh;
+    font-size: 16px;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);    
+    font-family: sans-serif;
+}
+
+.hitack:hover{
+    border-bottom: 2px solid#ff4800;
+}
+
+input[type=date]{
+    width: 24vh;
+    height: 5.8vh;
+    margin-top: -40vh;
+    background: transparent;
+    margin-left: 6vh;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #fffefe;
+    font-family: sans-serif;
+}
+
+input[type=date]:hover
+{
+    border-bottom: 2px solid#ff4800;
+}
+
+input[type=submit]
+{
+    background-color: #ff6200;
+    height: 50px;
+    margin-top: -6.5vh;
+    width: 24vh;
+    margin-left: 112vh;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid #ff6200;
+    color: rgb(255, 255, 255);
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+input[type=submit]:hover{
+    background-color: #fff;
+    color: #ff4d00;
+    font-weight: bold;
+    font-size: 21px;
+    transition: 0.4s ease;
+}
